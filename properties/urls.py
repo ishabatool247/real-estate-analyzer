@@ -13,9 +13,9 @@ urlpatterns = [
     # =====================================================
     path(
     "",
-    views.dashboard,
-    name="home",
-    ),
+    views.health_check,
+    name="health_check",
+   ),
 
     path(
     "dashboard/",

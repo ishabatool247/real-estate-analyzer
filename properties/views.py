@@ -3214,3 +3214,10 @@ def scrape_property_api(request):
         },
         status=400,
     )
+from django.http import JsonResponse
+
+def health_check(request):
+    return JsonResponse({
+        "status": "ok",
+        "message": "Real Estate Analyzer API is running"
+    })

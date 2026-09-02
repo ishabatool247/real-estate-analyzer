@@ -11,11 +11,16 @@ urlpatterns = [
     # =====================================================
     # DJANGO PAGES
     # =====================================================
+    path(
+    "",
+    views.dashboard,
+    name="home",
+    ),
 
     path(
-        "dashboard/",
-        views.dashboard,
-        name="dashboard",
+    "dashboard/",
+    views.dashboard,
+    name="dashboard",
     ),
 
     path(

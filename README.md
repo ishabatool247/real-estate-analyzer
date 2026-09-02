@@ -114,13 +114,8 @@ The application is deployed as separate frontend and backend services.
 
 The React frontend communicates with the deployed Django backend through API endpoints.
 
----
+---<img width="1874" height="896" alt="Screenshot 2026-09-02 114833" src="https://github.com/user-attachments/assets/c31d52de-8572-4340-8f4f-6ffaee56bb85" />
 
-## 📸 Screenshots
-
-Screenshots of the EstatePro dashboard, property listings, property analysis, and market insights will be added here.
-
----
 
 ## 🎯 Project Goal
 

@@ -40,7 +40,7 @@ function MarketInsights() {
     try {
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/market-insights/",
+        "https://real-estate-analyzer-1-aoph.onrender.com/api/market-insights/",
         {
           method: "GET",
           headers: {

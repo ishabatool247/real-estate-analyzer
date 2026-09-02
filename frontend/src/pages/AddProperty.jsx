@@ -79,7 +79,7 @@ function AddProperty() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/properties/scrape/",
+        "https://real-estate-analyzer-1-aoph.onrender.com/api/properties/scrape/",
         {
           method: "POST",
           headers: {
@@ -208,7 +208,7 @@ function AddProperty() {
 
       // Manual property creation
       const response = await fetch(
-        "http://127.0.0.1:8000/api/properties/create/",
+        "https://real-estate-analyzer-1-aoph.onrender.com/api/properties/create/",
         {
           method: "POST",
           headers: {
@@ -1053,4 +1053,5 @@ function AddProperty() {
 }
 
 export default AddProperty
+
 

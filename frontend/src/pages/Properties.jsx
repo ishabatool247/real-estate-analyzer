@@ -42,7 +42,7 @@ function Properties() {
   ======================================================= */
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/properties/")
+    fetch("https://real-estate-analyzer-1-aoph.onrender.com/api/properties/")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to load properties")
@@ -189,7 +189,7 @@ function Properties() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/api/properties/${id}/delete/`,
+        `https://real-estate-analyzer-1-aoph.onrender.com/api/properties/${id}/delete/`,
         {
           method: "POST",
         }
@@ -1111,4 +1111,5 @@ function Feature({
 
 
 export default Properties
+
 

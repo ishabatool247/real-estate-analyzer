@@ -60,7 +60,7 @@ function PropertyAnalysis() {
     }
 
     const apiUrl =
-      `http://127.0.0.1:8000/api/properties/${id}/analysis/`
+      `https://real-estate-analyzer-1-aoph.onrender.com/api/properties/${id}/analysis/`
 
     console.log("PROPERTY ID:", id)
     console.log("PROPERTY ANALYSIS URL:", apiUrl)
@@ -1927,4 +1927,5 @@ function RecommendationBadge({
 
 
 export default PropertyAnalysis
+
 

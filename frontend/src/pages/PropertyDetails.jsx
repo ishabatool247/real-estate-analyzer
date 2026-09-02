@@ -76,7 +76,7 @@ function PropertyDetails() {
          */
 
         const response = await fetch(
-          "http://127.0.0.1:8000/api/properties/"
+          "https://real-estate-analyzer-1-aoph.onrender.com/api/properties/"
         )
 
         if (!response.ok) {
@@ -197,7 +197,7 @@ function PropertyDetails() {
      * add Django server URL.
      */
 
-    return `http://127.0.0.1:8000${
+    return `https://real-estate-analyzer-1-aoph.onrender.com${
       image.startsWith("/")
         ? image
         : `/${image}`
@@ -303,7 +303,7 @@ function PropertyDetails() {
       }
 
       const apiUrl =
-        `http://127.0.0.1:8000/api/property/${id}/contact/`
+        `https://real-estate-analyzer-1-aoph.onrender.com/api/property/${id}/contact/`
 
       const response = await fetch(
         apiUrl,
@@ -1417,4 +1417,5 @@ function SummaryRow({
 
 
 export default PropertyDetails
+
 

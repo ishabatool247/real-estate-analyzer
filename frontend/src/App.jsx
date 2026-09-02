@@ -45,7 +45,7 @@ import PropertyDetails from "./pages/PropertyDetails"
 import SettingsPage from "./pages/Settings"
 import UsersPage from "./pages/Users"
 
-const API_BASE = "http://127.0.0.1:8000"
+const API_BASE = "https://real-estate-analyzer-1-aoph.onrender.com"
 
 /* =========================================================
    APP ROUTER
@@ -1828,4 +1828,5 @@ function formatDashboardPrice(price) {
 }
 
 export default App
+
 
